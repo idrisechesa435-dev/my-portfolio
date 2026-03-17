@@ -180,6 +180,56 @@ background:gold;
 color:black;
 }
 
+.testimonials {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+    color: #555;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+
 /* FOOTER */
 
 footer{
@@ -313,6 +363,7 @@ transform:scale(1.1);
 </head>
 
 <body>
+  
 
 <header>
 
@@ -343,7 +394,7 @@ transform:scale(1.1);
 
 <p>Creative Graphic Designer & Web Developer</p>
 
-<button class="btn">View My Portfolio</button>
+<button class="btn" onclick="location.href='portfolio.html'">View My Portfolio</button>
 
 </section>
 <section class="summary">
@@ -416,6 +467,37 @@ transform:scale(1.1);
 
 </div>
 
+<section class="testimonials">
+    <h2>What Clients Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <img src="images/comment male.jpeg" alt="Client 1">
+            
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>"Dadris Designers did an amazing job on my logo. Highly recommended!"</p>
+            <h4>- John Doe -</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="images/comment lady.jpeg" alt="Client 2">
+            
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>"Very creative and professional. My website looks great!"</p>
+            <h4>-Balkis VI -</h4>
+        </div>
+
+    </div>
+</section>
+
+
 </div>
 
 </section>
@@ -463,13 +545,13 @@ transform:scale(1.1);
 </div>
 
 
-<h3>Follow Me</h3>
+<h3>WhatsApp Us|  Call Us</h3>
 
 <div class="social-icons">
 
-<a href="#">🌐</a>
-<a href="#">📷</a>
-<a href="#">💼</a>
+<a href="#">+254 717 303 361
+</a>
+
 
 </div>
 
